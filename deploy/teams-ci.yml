@@ -14,8 +14,8 @@ stages:
         steps:
           - task: NodeTool@0
             inputs:
-              versionSpec: 14.x
-            displayName: Use Node 14.x
+              versionSpec: 16.x
+            displayName: Use Node 16.x
           - task: CmdLine@2
             displayName: npm install
             inputs:
