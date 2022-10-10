@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "teams-devops",
+    "libraryId": "51aa73f4-dc0a-4608-9a70-972f0a6899f2",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "teams-devops",
+    "solutionShortDescription": "teams-devops description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
