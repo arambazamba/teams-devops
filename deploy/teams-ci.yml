@@ -38,10 +38,10 @@ stages:
               arguments: "--ship"
 
           - task: CopyFiles@2
-            displayName: "Copy Files to: $(build.artifactstagingdirectory)/spfxdrop"
+            displayName: "Copy Files to: $(Build.ArtifactStagingDirectory)/spfxdrop"
             inputs:
               Contents: "sharepoint/solution/*.sppkg"
-              TargetFolder: "$(build.artifactstagingdirectory)/spfxdrop"
+              TargetFolder: "$(Build.ArtifactStagingDirectory)/spfxdrop"
 
           - task: PublishBuildArtifacts@1
             displayName: "Publish artifacts: spfxdrop"
