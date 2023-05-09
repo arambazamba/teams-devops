@@ -1,6 +1,7 @@
 name: teams-ci
 
 trigger: none
+pr: none
 
 pool:
   vmImage: "ubuntu-20.04"     
